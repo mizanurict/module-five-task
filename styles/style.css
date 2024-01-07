@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  background-image: url("../images/banner/banner2.png");
+  text-align: right;
+  max-width: 1600;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.header .header-title {
+  padding: 180px 190px 0px 690px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+}
+.header .header-description {
+  padding: 24px 190px 0px 730px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header .btn {
+  border-radius: 5px;
+  border: none;
+  background: #f15b22;
+  margin: 24px 190px 170px 900px;
+  padding: 20px 25px;
+}
+.section-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-profile {
+  margin-left: 190px;
+}
+.section-description {
+}
+.section-description .section-title {
+  margin-top: 50px;
+  margin-right: 310px;
+  margin-bottom: 10px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section-description .section-description-para {
+  margin-right: 220px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.section-description .section-list {
+  list-style: none;
+  line-height: 25px;
+}
+.section-description .section-list li:before {
+  content: "✓";
+  padding-right: 10px;
+}
+.my-plan .my-plan-title {
+  text-align: center;
+  margin-top: 70px;
+}
+.my-plan .plan-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 220px;
+  text-align: center;
+}
+.section-last {
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  max-width: 1140px;
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  margin: 70px auto;
+}
+
+.section-title {
+  padding-left: 30px;
+  padding-top: 60px;
+  color: #fff;
+}
+.section-last .btn {
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  color: #F15B22;
+  font-weight: 600;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #151414;
+  color: white;
+}
+.footer-container{
+  margin: 110px 130px;
+}
+.footer-one .one-para, .phone{
+  margin-right: 250px;
+  padding: 10px 0px;  
+}
+.footer-one ul{
+  display: flex;
+}
+.footer-one ul li{
+  list-style: none;
+  margin-right: 20px;
+}
+.footer-container .email{
+  padding: 10px 15px 10px 6px;
+  border-radius: 5px;
+  border: .5px solid white;
+  background-color: #151414;
+  margin-top: 10px;
+}
+.footer-container .btn{
+  padding: 10px;
+  border-radius: 5px;
+  color: #F15B22;
+  border:none;
+  margin-top: 10px;
+}
